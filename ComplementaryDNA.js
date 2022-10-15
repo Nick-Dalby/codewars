@@ -31,6 +31,6 @@ function DNAStrand(dna) {
 
   return dna
     .split('')
-    .map((elem) => DNAComplement[elem])
+    .map((x) => DNAComplement[x])
     .join('')
 }
