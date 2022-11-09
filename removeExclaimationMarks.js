@@ -1,5 +1,5 @@
 // SOLUTION:
 
 function removeExclamationMarks(s) {
-  return (s = s.replace(/\!/g, ''))
+  return s.replace(/\!/g, '')
 }
